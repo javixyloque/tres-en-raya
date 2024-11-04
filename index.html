@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tres en raya</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .casilla {
+            text-align: center;
+        }
+        .casilla:hover {
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav></nav>
-    </header>
-
-    <h1>Tres en raya</h1>
-    <table id="tablero" class="tablero">
+    <table id="tablero" class="tablero" border="solid 2px" cellspacing="0" height="200px" width="200px" align="center">
         <tr>
             <td id="casilla-1" class="casilla">1</td>
             <td id="casilla-2" class="casilla">2</td>
@@ -29,9 +31,6 @@
             <td id="casilla-9" class="casilla">9</td>
         </tr>
     </table>
-    <h2>Instrucciones</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vitae architecto quo, ipsa perspiciatis eum modi sint, autem totam sit sapiente quae, voluptas non vel ea voluptatem pariatur! Maiores, iusto.</p>
-
-    <script src="app.js" defer></script>
+    <script src="3enraya.js" defer></script>
 </body>
 </html>
